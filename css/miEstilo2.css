@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nombre{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    width: 130px;
+    height: auto;
+    object-fit: contain;
+    z-index: 1001;
+}
+
+#zona{
+    background-image: url('../imagenes/onePiece.jpeg');
+}
+
+#zona0{
+    background-image: url('../imagenes/oda.jpeg');
+}
+
+#zona1{
+    background-image: url('../imagenes/gear1.jpeg');
+}
+
+#zona2{
+    background-image: url('../imagenes/gear2.jpeg');
+}
+
+#zona3{
+    background-image: url('../imagenes/gear3.jpeg');
+}
+
+#zona4{
+    background-image: url('../imagenes/gear4.jpeg');
+}
+
+#zona5{
+    background-image: url('../imagenes/gear5.jpeg');
+}
+
+/* menu */
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{
+    display: block;
+    color: green;
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 10px 0;
+    width: 150px;
+    height: 40px; 
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+a:hover{
+    transform: translateX(10%);
+    background-color: green;
+    color: white;
+    border: 0;
+}
+
+
+.logo {
+    position: fixed;
+    top: 120px;
+    left: 100px;
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1000;
+}
